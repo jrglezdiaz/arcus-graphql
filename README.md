@@ -33,3 +33,9 @@ Things you may want to cover:
   2. Generate the link database model (This generates a link.rb file in app/models)
     * bundle exec rails generate model Link url:string description:text
     * bundle exec rails db:migrate
+
+  3. Create a couple of dummy Links
+    * rails c
+    * Link.create url: 'http://graphql.org/', description: 'The Best Query Language'
+    * Link.create url: 'http://dev.apollodata.com/', description: 'Awesome GraphQL Client'
+    * exit
