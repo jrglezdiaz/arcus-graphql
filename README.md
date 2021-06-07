@@ -42,4 +42,7 @@ Things you may want to cover:
 
   4. Crete a Query for returning Links
     * rails g graphql:object LinkType id:ID! url:String! description:String!
-    
+
+  5. Add into app/assets/config/manifest.js
+    * //= link graphiql/rails/application.css
+    * //= link graphiql/rails/application.js
