@@ -46,3 +46,6 @@ Things you may want to cover:
   5. Add into app/assets/config/manifest.js
     * //= link graphiql/rails/application.css
     * //= link graphiql/rails/application.js
+
+  6. Add CreateLink file
+    * Create file app/graphql/mutations/create_link.rb
