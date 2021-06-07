@@ -21,3 +21,12 @@ Things you may want to cover:
 
 **How to run the test suite**
   * bundle exec rails test
+
+## Steps
+ 1. Setup GraphQL 
+  * Add gem 'graphql', '1.9.17'
+  * Execute bundle install
+  * Execute bundle exec rails generate graphql:install
+  * Update Gemfile gem 'graphiql-rails', '1.7.0', group: :development
+  * Execute bundle install
+  
