@@ -23,10 +23,13 @@ Things you may want to cover:
   * bundle exec rails test
 
 ## Steps
- 1. Setup GraphQL 
-  * Add gem 'graphql', '1.9.17'
-  * Execute bundle install
-  * Execute bundle exec rails generate graphql:install
-  * Update Gemfile gem 'graphiql-rails', '1.7.0', group: :development
-  * Execute bundle install
-  
+  1. Setup GraphQL 
+    * Add gem 'graphql', '1.9.17'
+    * bundle install
+    * bundle exec rails generate graphql:install
+    * Update Gemfile gem 'graphiql-rails', '1.7.0', group: :development
+    * bundle install
+
+  2. Generate the link database model (This generates a link.rb file in app/models)
+    * bundle exec rails generate model Link url:string description:text
+    * bundle exec rails db:migrate
