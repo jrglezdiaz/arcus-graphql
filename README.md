@@ -39,3 +39,7 @@ Things you may want to cover:
     * Link.create url: 'http://graphql.org/', description: 'The Best Query Language'
     * Link.create url: 'http://dev.apollodata.com/', description: 'Awesome GraphQL Client'
     * exit
+
+  4. Crete a Query for returning Links
+    * rails g graphql:object LinkType id:ID! url:String! description:String!
+    
