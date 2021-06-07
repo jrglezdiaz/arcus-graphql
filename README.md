@@ -50,3 +50,6 @@ Things you may want to cover:
   6. Add CreateLink file
     * Create file app/graphql/mutations/create_link.rb
     * Update app/graphql/types/mutation_type.rb to expose this mutation.
+
+  7. Add CreateLink test
+    * bundle exec rails test
