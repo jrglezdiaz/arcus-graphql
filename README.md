@@ -52,3 +52,9 @@ Things you may want to cover:
     * Update app/graphql/types/mutation_type.rb to expose this mutation.
     * Add CreateLink test
     * bundle exec rails test
+
+  7. Add Filters
+    * gem 'search_object_graphql', '0.3.1'
+    * bundle install
+    * Add link search resolver
+    * Edit links query types
